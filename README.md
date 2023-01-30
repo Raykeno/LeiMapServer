@@ -36,3 +36,11 @@ Requêtes :
 * Voir tout les participants dans un lieu :  GET /lieu/$[id]/participants
 * Récupérer les infos d’un participant : GET /partcipant/$[id]
 
+Pour pouvoir utiliser le projet, il faut utiliser le CLI de Symfony, php 8.*, composer, et il faut avoir l'extension de SQLite3 de PHP d'activée!
+
+symfony server:start dans le root du projet pour le lancer 
+Pour accéder à l'API, il faut aller dans http://localhost:8000/api
+
+à faire :
+- Les requêtes avec jointures
+- Avoir certains champs nulls
